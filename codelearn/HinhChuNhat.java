@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class HinhChuNhat {
     public static void main(String[]args){
-        HinhChuNhat1 HCN = new HinhChuNhat();
-        HCN.getInformation();
-        HCN.display;
+        HinhChuNhat1 HCN = new HinhChuNhat1();
+        HCN.width = 4;
+        HCN.length = 5;
+        HCN.display();
     }
 }
 class HinhChuNhat1 {
@@ -16,11 +17,11 @@ class HinhChuNhat1 {
         length = sc.nextDouble();
         width = sc.nextDouble();
     }
-    public double getArea(){
+    public double getArea() {
         return length * width;
     }
     public double getPerimeter(){
-        return ( length + width)*2
+        return ( length + width)*2;
     }
     public void display(){
         System.out.println("Area:" + getArea());
