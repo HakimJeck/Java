@@ -7,28 +7,36 @@ public class Person {
     static String school = "fpt-aptech";
     //gan gia tri
     public void setName(String name){
+
         this.name = name;
     }
     public void setAge(int age){
+
         this.age = age;
     }
     public void setAddress(String address){
+
         this.address = address;
     }
     public void setSchool(String school){
+
         this.school = school;
     }
     //tra gia tri
     public String getName(){
+
         return name;
     }
     public String getAddress(){
+
         return address;
     }
     public String getSchool(){
+
         return school;
     }
     public int getAge(){
+
         return age;
     }
     //Constructors
