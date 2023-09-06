@@ -7,6 +7,7 @@ public class abstractDemo {
             this.year = year;
             this.brand = brand;
         }
+
         //Abstract method start() body of code emty
         abstract void  start();
     }
