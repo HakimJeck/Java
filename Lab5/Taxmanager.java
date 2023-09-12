@@ -6,7 +6,7 @@ public class Taxmanager {
     private int count = 0;
     public boolean addTaxpaper(Taxpaper taxpaper){
         if( count >= MAX){
-            return false
+            return false;
         }
         list[count++] = taxpaper;
         return true;
