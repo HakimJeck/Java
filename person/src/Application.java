@@ -5,6 +5,6 @@ public class Application {
         //p1.outputData();
         Student student = new Student("Hai", 19, "Thai Binh", "IT");
         student.study();
-        Teacher teacher = new Teacher("Ngoc" "Quang nam", "Software");
+        Teacher teacher = new Teacher("Ngoc", "Quang nam", "Software");
     }
 }
