@@ -90,4 +90,3 @@ public class mySqlConnectionExample {
         }
     }
     //Login with PrepareStatement
-}
